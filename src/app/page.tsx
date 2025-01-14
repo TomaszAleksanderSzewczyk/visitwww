@@ -8,7 +8,7 @@ import Projects from "@/app/components/Projects";
 
 const Home: React.FC = () => {
     return (
-        <div className="bg-primary text-textLight min-h-screen font-inter text-white bg-backgroundGray flex flex-col md:flex-row">
+        <div className="bg-primary text-textLight min-h-screen font-inter text-white bg-black flex flex-col md:flex-row">
             <aside className="w-full md:w-1/4 bg-secondary py-8 px-6 h-auto md:h-screen sticky top-0 hidden lg:block">
                 <Header />
             </aside>
