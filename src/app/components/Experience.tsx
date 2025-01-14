@@ -32,7 +32,7 @@ const Experience: React.FC = () => {
             className="bg-primary text-textLight min-h-screen font-inter px-8 py-12"
         >
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl font-bold text-textWhite text-center text-oldMoneyGreen">
+                <h2 className="text-4xl font-bold text-textWhite text-center text-oldMoneyGreen">
                     Experience
                 </h2>
                 <div className="mt-10 space-y-12">

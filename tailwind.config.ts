@@ -7,11 +7,12 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                inter: ['Inter', 'sans-serif'], // Definicja fontu w odpowiednim miejscu
+                inter: ['Inter', 'sans-serif'],
             },
             colors: {
                 oldMoneyGreen: '#fbd512',
-                oldMoneyYellowHover: '#f9c31a'// Definicja koloru w extend.colors
+                oldMoneyYellowHover: '#f9c31a',
+                backgroundGray: '#403F45'
             },
         },
     },

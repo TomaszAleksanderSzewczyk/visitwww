@@ -24,6 +24,11 @@ const Education: React.FC = () => {
             institution: "Silesian University of Technology",
             duration: "2019 — 2023",
         },
+        {
+            degree: "Pupil",
+            institution: "IV High School named after K.K. Baczyński",
+            duration: "2015 — 2019",
+        }
     ];
 
     return (
@@ -32,7 +37,7 @@ const Education: React.FC = () => {
             className="bg-primary text-textLight min-h-screen font-inter px-8 py-12"
         >
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl font-bold text-textWhite text-center text-oldMoneyGreen">
+                <h2 className="text-4xl font-bold text-textWhite text-center text-oldMoneyGreen">
                     Education
                 </h2>
                 <div className="mt-10 space-y-12">

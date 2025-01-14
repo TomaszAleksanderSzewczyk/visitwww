@@ -28,11 +28,9 @@ const Header: React.FC = () => {
     }, []);
 
     return (
-        <header className="bg-primary text-textLight py-8 px-6 font-inter ml-20">
-            <h1  className="text-4xl md:text-6xl font-bold text-oldMoneyGreen ">
-                <a href= "#about">
-                Tomasz Szewczyk
-                </a>
+        <header className="bg-primary text-textLight py-8 px-6 font-inter ml-20 lg:ml-0 lg:static sticky top-0">
+            <h1 className="text-4xl md:text-6xl font-bold text-oldMoneyGreen">
+                <a href="#about">Tomasz Szewczyk</a>
             </h1>
             <h2 className="text-2xl text-textLight mt-4">Front End Engineer</h2>
             <p className="mt-4 text-textLight">
@@ -55,7 +53,7 @@ const Header: React.FC = () => {
                         >
                             <a
                                 href={`#${item.id}`}
-                                className="flex items-center hover:text-accent hover:text-oldMoneyYellowHover "
+                                className="flex items-center hover:text-accent hover:text-oldMoneyYellowHover"
                             >
                                 <span
                                     className={` relative before:content-[''] before:bg-oldMoneyGreen before:block before:w-12 before:h-px before:transition-all before:duration-300 before:ease-in-out before:group-hover:w-20 ${
