@@ -58,7 +58,7 @@ const Home: React.FC = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{once: true, amount: 0.2}}
-                    transition={{duration: 0.7, delay: 0.4, ease: "easeInOut"}}
+                    transition={{duration: 0.7, delay: 0.2, ease: "easeInOut"}}
                 >
                     <Experience/>
                 </motion.section>
@@ -69,7 +69,7 @@ const Home: React.FC = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{once: true, amount: 0.2}}
-                    transition={{duration: 0.7, delay: 0.6, ease: "easeInOut"}}
+                    transition={{duration: 0.7, delay: 0.4, ease: "easeInOut"}}
                 >
                     <Projects/>
                 </motion.section>
@@ -80,7 +80,7 @@ const Home: React.FC = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{once: true, amount: 0.2}}
-                    transition={{duration: 0.7, delay: 0.8, ease: "easeInOut"}}
+                    transition={{duration: 0.7, delay: 0.4, ease: "easeInOut"}}
                 >
                     <Footer/>
                 </motion.section>
