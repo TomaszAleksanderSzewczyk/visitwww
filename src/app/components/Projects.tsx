@@ -15,6 +15,12 @@ const projects = [
         link: "https://www.loom.com/share/0c702b7d95c641129afba35b28c660d3?sid=d700c037-8dff-4913-988b-950cf885d103",
     },
     {
+        title: "Nasa Media Library",
+        description: "Unleash your inner astronaut with NASA's Media Library! Explore stunning images and more from space.",
+        techStack: ["JavaScript"],
+        link: "https://tomaszaleksanderszewczyk.github.io/nasa-media-library",
+    },
+    {
         title: "One Hand Bandit",
         description: "This is how I have learnt JavaScript. I wrote One Hand Bandit...",
         techStack: ["HTML", "CSS", "JavaScript"],
@@ -24,12 +30,6 @@ const projects = [
         description: "Simple Rock, Paper, Scissors! vs Computer 🤖",
         techStack: ["HTML", "CSS", "JavaScript"],
         link: "https://tomaszaleksanderszewczyk.github.io/Rock-paper-scissors/",
-    },
-    {
-        title: "Nasa Media Library",
-        description: "Unleash your inner astronaut with NASA's Media Library! Explore stunning images and more from space.",
-        techStack: ["JavaScript"],
-        link: "https://tomaszaleksanderszewczyk.github.io/nasa-media-library",
     },
     {
         title: "Spedition",
