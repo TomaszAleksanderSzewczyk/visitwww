@@ -25,7 +25,12 @@ const projects = [
         techStack: ["HTML", "CSS", "JavaScript"],
         link: "https://tomaszaleksanderszewczyk.github.io/Rock-paper-scissors/",
     },
-
+    {
+        title: "Nasa Media Library",
+        description: "Unleash your inner astronaut with NASA's Media Library! Explore stunning images and more from space.",
+        techStack: ["JavaScript"],
+        link: "https://tomaszaleksanderszewczyk.github.io/nasa-media-library",
+    },
     {
         title: "Spedition",
         description: "Program that finds the ways between spedition cities. Cities and distance between individual routes are in .txt file. Pair of cities should be in separated lines. Spedition ways are outputed in .txt files. It was my first academic project realized in C++ technology. It was my first academic project. It is written in Polish language. I have learned lesson from this 😃",
