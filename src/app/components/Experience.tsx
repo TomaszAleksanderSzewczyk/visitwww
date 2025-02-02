@@ -13,7 +13,7 @@ const Experience: React.FC = () => {
             company: "Comarch S.A",
             duration: "Jul 2022 — Present",
             description:
-                "Led development of several new features in a React/TypeScript frontend for a telecommunications application. Collaborated with developers, mentored two interns, and wrote tests to ensure quality.",
+                "Led development of several new features in a React/TypeScript frontend for a telecommunications application. Collaborated with developers, and wrote tests to ensure quality.",
             technologies: ["React", "TypeScript", "Node.js", "GraphQL", "Redux", "Git","SVN", "Jest", "React Testing Library", "Vite", "Playwright" ,"Storybook", "CSS", "SCSS", "Scrum", "Agile"],
         },
         {

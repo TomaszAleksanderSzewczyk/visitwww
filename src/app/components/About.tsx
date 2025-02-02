@@ -19,8 +19,7 @@ const About: React.FC = () => {
                     </b>
                     in React, TypeScript, and Node.js, specializing in creating applications tailored to client needs.
                     I have worked on feature development, building high-quality React components, and collaborating
-                    with teams to deliver robust and scalable solutions. My experience also includes mentoring junior
-                    developers, writing reliable tests using Jest and React Testing Library, and contributing to
+                    with teams to deliver robust and scalable solutions. My experience also includes writing reliable tests using Jest and React Testing Library, and contributing to
                     comprehensive project documentation. Additionally, I am proficient in frontend tools like CSS/SCSS
                     and Storybook, which help ensure a seamless development workflow. I hold a Bachelor’s degree in
                     Computer Science and a Master’s in Management, allowing me to combine technical expertise with
