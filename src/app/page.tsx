@@ -15,7 +15,7 @@ const Home: React.FC = () => {
 
     return (
         <div
-            className="bg-primary text-textLight min-h-screen font-inter text-white bg-black flex flex-col md:flex-row">
+            className="bg-primary text-textLight min-h-screen font-inter text-white bg-black flex flex-col md:flex-row dots-bg">
             {/* Header for larger screens */}
             <aside className="w-full md:w-1/4 bg-secondary py-8 px-6 h-auto md:h-screen sticky top-0 hidden lg:block">
                 <Header/>
