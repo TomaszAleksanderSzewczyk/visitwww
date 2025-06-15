@@ -9,6 +9,12 @@ const projects = [
         link: "#about",
     },
     {
+        title: "Rick & Morty Character List",
+        description: "Interactive web application showcasing characters from the Rick & Morty universe with detailed information and filtering options.",
+        techStack: ["React Native", "Expo", "Rick & Morty API", "CSS", "JavaScript"],
+        link: "https://www.loom.com/share/a6d1e3c50e4c4bbdb771f7c68cda9d7c?sid=75296d41-0cbc-4a74-be45-9877fc3fcae4",
+    },
+    {
         title: "Dalam",
         description: "This is my engineering thesis project that facilitates contact, cooperation and outsourcing of the tasks.",
         techStack: ["Next.js", "MongoDB", "MaterialUI", "Vercel", "AWS Storage"],
