@@ -63,7 +63,7 @@ const About: React.FC = () => {
                     develop valuable collaboration and organizational skills.
                 </p>
                 <p className="text-lg text-textLight text-justify leading-relaxed mt-6">
-                    Currently, I am working as a Frontend Developer at{" "}
+                    I worked as a Frontend Developer at{" "}
                     <a
                         href="https://comarch.pl"
                         target="_blank"
@@ -72,10 +72,9 @@ const About: React.FC = () => {
                     >
                         <b>Comarch</b>
                     </a>
-                    , where I am responsible for developing and maintaining user interfaces for telecommunications
-                    applications. My role includes creating new features, fixing bugs, and ensuring that the solutions
-                    meet client requirements. I have worked with major clients such as Orange, Vodafone, and T-Mobile,
-                    further enhancing my technical and communication skills.
+                    , where I was responsible for developing and maintaining user interfaces for telecommunications
+                    applications. I worked with major clients such as Orange, Vodafone, and T-Mobile,
+                    further enhancing my technical and communication skills. Currently, I run my own sole proprietorship, providing IT services and software solutions for businesses.
                 </p>
                 <p className="text-lg text-textLight text-justify leading-relaxed mt-6">
                     In my spare time, I love learning new things, especially programming and languages. I also enjoy

@@ -9,9 +9,17 @@ interface ExperienceProps {
 const Experience: React.FC = () => {
     const experiences: ExperienceProps[] = [
         {
+            title: "Sole Proprietorship",
+            company: "IT Services",
+            duration: "Jul 2025 — Present",
+            description:
+                "Running my own business providing IT services and software solutions for businesses. Delivering custom web applications, frontend development, and technical consulting.",
+            technologies: ["React", "TypeScript", "Next.js", "Node.js", "Tailwind CSS"],
+        },
+        {
             title: "Frontend Developer",
             company: "Comarch S.A",
-            duration: "Jul 2022 — Present",
+            duration: "Jul 2022 — Jul 2025",
             description:
                 "Led development of several new features in a React/TypeScript frontend for a telecommunications application. Collaborated with developers, and wrote tests to ensure quality.",
             technologies: ["React", "TypeScript", "Node.js", "GraphQL", "Redux", "Git","SVN", "Jest", "React Testing Library", "Vite", "Playwright" ,"Storybook", "CSS", "SCSS", "Scrum", "Agile"],
