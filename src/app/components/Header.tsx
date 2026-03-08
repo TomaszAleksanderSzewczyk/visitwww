@@ -71,6 +71,7 @@ const Header: React.FC = () => {
                         {id: "education", label: "Education"},
                         {id: "experience", label: "Experience"},
                         {id: "projects", label: "Projects"},
+                        {id: "services", label: "Services"},
                     ].map((item) => (
                         <li
                             key={item.id}

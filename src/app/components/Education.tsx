@@ -34,7 +34,7 @@ const Education: React.FC = () => {
     return (
         <section
             id="education"
-            className="bg-primary text-textLight min-h-screen font-inter px-8 py-12"
+            className="bg-primary text-textLight font-inter px-8 py-12"
         >
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-4xl font-bold text-textWhite text-center text-oldMoneyGreen">

@@ -9,6 +9,12 @@ const projects = [
         link: "#about",
     },
     {
+        title: "Vocadino",
+        description: "Interactive language learning platform that makes mastering new languages fun and engaging.",
+        techStack: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+        link: "https://www.vocadino.com/",
+    },
+    {
         title: "Rick & Morty Character List",
         description: "Interactive web application showcasing characters from the Rick & Morty universe with detailed information and filtering options.",
         techStack: ["React Native", "Expo", "Rick & Morty API", "CSS", "JavaScript"],
@@ -54,41 +60,48 @@ const projects = [
 
 const Projects: React.FC = () => {
     return (
-        <section id="projects" className="bg-primary text-textLight min-h-screen px-8 py-12">
-            <h1 className="text-4xl font-bold text-textWhite mb-8 text-oldMoneyGreen flex flex-col items-center hover">Projects</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <section id="projects" className="bg-primary text-gray-300 px-8 py-16">
+            <h1 className="text-4xl font-bold text-oldMoneyGreen mb-12 text-center tracking-wide">
+                Projects
+            </h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
                 {projects.map((project, index) => (
-                    <div
+                    <a
                         key={index}
-                        className="bg-secondary rounded-lg shadow-lg p-6 flex flex-col justify-between border-2 hover:border-oldMoneyGreen "
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group bg-secondary rounded-2xl p-6 flex flex-col justify-between
+                            border border-gray-800 cursor-pointer no-underline"
                     >
                         <div>
-                            <h2 className="text-2xl font-semibold text-textWhite mb-4">
-                                {project.title}
-                            </h2>
-                            <p className="text-textLight mb-4">{project.description}</p>
+                            <div className="flex items-center justify-between mb-4">
+                                <h2 className="text-xl font-semibold text-white">
+                                    {project.title}
+                                </h2>
+                                <svg
+                                    className="w-5 h-5 text-gray-600 p-0.5 rounded group-hover:text-black group-hover:bg-oldMoneyGreen transition-colors duration-200"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+                                >
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M17 7H7M17 7v10" />
+                                </svg>
+                            </div>
+                            <p className="text-gray-400 text-sm leading-relaxed mb-5">
+                                {project.description}
+                            </p>
                             <ul className="flex flex-wrap gap-2">
                                 {project.techStack.map((tech, i) => (
                                     <li
                                         key={i}
-                                        className="px-3 py-1 bg-accent text-primary rounded-full text-sm font-medium border-oldMoneyGreen border-2"
+                                        className="px-2.5 py-0.5 bg-gray-800/80 text-gray-300 rounded-md text-xs font-medium
+                                            border border-gray-700/50"
                                     >
                                         {tech}
                                     </li>
                                 ))}
                             </ul>
                         </div>
-                        <div className="mt-4 border-b-2 rounded-ee-2xl hover:text-oldMoneyYellowHover">
-                            <a
-                                href={project.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-accent font-semibold"
-                            >
-                                View Project
-                            </a>
-                        </div>
-                    </div>
+                    </a>
                 ))}
             </div>
         </section>

@@ -6,6 +6,8 @@ import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Education from "@/app/components/Education";
 import Projects from "@/app/components/Projects";
+import Services from "@/app/components/Services";
+import Contact from "@/app/components/Contact";
 
 const Home: React.FC = () => {
     const sectionVariants = {
@@ -72,6 +74,28 @@ const Home: React.FC = () => {
                     transition={{duration: 0.7, delay: 0.4, ease: "easeInOut"}}
                 >
                     <Projects/>
+                </motion.section>
+
+                <motion.section
+                    id="services"
+                    variants={sectionVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{once: true, amount: 0.2}}
+                    transition={{duration: 0.7, delay: 0.2, ease: "easeInOut"}}
+                >
+                    <Services/>
+                </motion.section>
+
+                <motion.section
+                    id="contact"
+                    variants={sectionVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{once: true, amount: 0.2}}
+                    transition={{duration: 0.7, delay: 0.2, ease: "easeInOut"}}
+                >
+                    <Contact/>
                 </motion.section>
 
                 <motion.section
