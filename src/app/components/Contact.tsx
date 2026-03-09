@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
     };
 
     return (
-        <section id="contact" className="text-gray-300 font-inter px-8 py-12">
+        <section id="contact" className="text-gray-300 font-nunito px-8 py-12">
             <div className="max-w-2xl mx-auto">
                 <h2 className="text-4xl font-bold text-center text-oldMoneyGreen mb-10">
                     Contact
@@ -53,7 +53,7 @@ const Contact: React.FC = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="name" className="block text-sm font-medium text-white mb-1">
+                        <label htmlFor="name" className="block text-sm font-normal text-white mb-1">
                             Name
                         </label>
                         <input
@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="email" className="block text-sm font-medium text-white mb-1">
+                        <label htmlFor="email" className="block text-sm font-normal text-white mb-1">
                             Email
                         </label>
                         <input
@@ -81,7 +81,7 @@ const Contact: React.FC = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="message" className="block text-sm font-medium text-white mb-1">
+                        <label htmlFor="message" className="block text-sm font-normal text-white mb-1">
                             Message
                         </label>
                         <textarea

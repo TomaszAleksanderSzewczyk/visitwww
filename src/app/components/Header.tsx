@@ -40,7 +40,7 @@ const Header: React.FC = () => {
     }, [titles.length]);
 
     return (
-        <header className="bg-primary text-textLight py-8 px-6 font-inter ml-20 lg:ml-0 lg:static sticky top-0">
+        <header className="bg-primary text-textLight py-8 px-6 font-nunito ml-20 lg:ml-0 lg:static sticky top-0">
             <h1 className="text-4xl md:text-6xl font-bold text-oldMoneyGreen">
                 <a href="#about">Tomasz Szewczyk</a>
             </h1>
@@ -53,7 +53,7 @@ const Header: React.FC = () => {
                         animate={{opacity: 1, y: 0}} // Widoczne
                         exit={{opacity: 0, y: 50}} // Znika na dół
                         transition={{duration: 0.7, ease: "easeInOut"}}
-                        className="text-2xl text-textLight font-semibold"
+                        className="text-2xl text-textLight font-bold"
                     >
                         {titles[titleIndex]} Engineer
                     </motion.h2>
@@ -90,7 +90,7 @@ const Header: React.FC = () => {
                                             : "before:w-12"
                                     }`}
                                 ></span>
-                                <span className="ml-4 uppercase tracking-widest font-semibold">
+                                <span className="ml-4 uppercase tracking-widest font-normal">
                                     {item.label}
                                 </span>
                             </a>

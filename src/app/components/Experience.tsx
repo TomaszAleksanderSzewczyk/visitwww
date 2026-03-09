@@ -37,7 +37,7 @@ const Experience: React.FC = () => {
     return (
         <section
             id="experience"
-            className="bg-primary text-textLight font-inter px-8 py-12"
+            className="bg-primary text-textLight font-nunito px-8 py-12"
         >
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-4xl font-bold text-textWhite text-center text-oldMoneyGreen">
@@ -46,7 +46,7 @@ const Experience: React.FC = () => {
                 <div className="mt-10 space-y-12">
                     {experiences.map((exp, index) => (
                         <div key={index} className="flex flex-col md:flex-row">
-                            <div className="md:w-1/4 text-accent text-sm font-medium">
+                            <div className="md:w-1/4 text-accent text-sm font-normal">
                                 {exp.duration}
                             </div>
                             <div className="md:w-3/4">

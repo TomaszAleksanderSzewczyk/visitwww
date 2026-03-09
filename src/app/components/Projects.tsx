@@ -76,7 +76,7 @@ const Projects: React.FC = () => {
                     >
                         <div>
                             <div className="flex items-center justify-between mb-4">
-                                <h2 className="text-xl font-semibold text-white">
+                                <h2 className="text-xl font-bold text-white">
                                     {project.title}
                                 </h2>
                                 <svg
@@ -93,7 +93,7 @@ const Projects: React.FC = () => {
                                 {project.techStack.map((tech, i) => (
                                     <li
                                         key={i}
-                                        className="px-2.5 py-0.5 bg-gray-800/80 text-gray-300 rounded-md text-xs font-medium
+                                        className="px-2.5 py-0.5 bg-gray-800/80 text-gray-300 rounded-md text-xs font-normal
                                             border border-gray-700/50"
                                     >
                                         {tech}

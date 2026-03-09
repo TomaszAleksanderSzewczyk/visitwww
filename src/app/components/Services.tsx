@@ -66,7 +66,7 @@ const Services: React.FC = () => {
                 <h2 className="text-4xl font-bold text-textWhite text-center text-oldMoneyGreen mb-4">
                     Services
                 </h2>
-                <p className="text-center text-textLight text-lg mb-12">
+                <p className="text-center text-textLight mb-12">
                     I provide full-stack IT services — from simple business card
                     websites to custom web applications. Let&apos;s build something
                     great together.
@@ -84,11 +84,11 @@ const Services: React.FC = () => {
                         >
                             <div>
                                 {service.highlighted && (
-                                    <span className="text-xs uppercase tracking-widest text-oldMoneyGreen font-semibold mb-2 block">
+                                    <span className="text-xs uppercase tracking-widest text-oldMoneyGreen font-normal mb-2 block">
                                         Most Popular
                                     </span>
                                 )}
-                                <h3 className="text-2xl font-semibold text-textWhite mb-2">
+                                <h3 className="text-2xl font-bold text-textWhite mb-2">
                                     {service.title}
                                 </h3>
                                 <p className="text-textLight mb-4 text-sm">
@@ -113,7 +113,7 @@ const Services: React.FC = () => {
                             </div>
                             <a
                                 href="#footer"
-                                className={`block text-center py-2 rounded-lg font-semibold transition-colors duration-300 ${
+                                className={`block text-center py-2 rounded-lg font-normal transition-colors duration-300 ${
                                     service.highlighted
                                         ? "bg-oldMoneyGreen text-black hover:bg-oldMoneyYellowHover"
                                         : "border-2 border-oldMoneyGreen text-oldMoneyGreen hover:bg-oldMoneyGreen hover:text-black"

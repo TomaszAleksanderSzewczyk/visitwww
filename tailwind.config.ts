@@ -7,7 +7,11 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                inter: ['Inter', 'sans-serif'],
+                montserrat: ['Montserrat', 'sans-serif'],
+                nunito: ['Nunito', 'sans-serif'],
+            },
+            lineHeight: {
+                relaxed: '2',
             },
             colors: {
                 oldMoneyGreen: '#fbd512',

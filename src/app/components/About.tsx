@@ -7,25 +7,19 @@ const About: React.FC = () => {
                 <h1 className="text-4xl font-bold text-textWhite mb-8 text-center text-oldMoneyGreen">
                     About
                 </h1>
-                <p className="text-lg text-textLight text-justify leading-relaxed">
-                    Hello,<br/> My name is Tomasz Szewczyk. I am a frontend developer with extensive
-                    <b>
-                        <a
-                            className="text-oldMoneyGreen hover:text-oldMoneyYellowHover"
-                            href="#experience"
-                        >
-                            {" "}Experience{" "}
-                        </a>
-                    </b>
-                    in React, TypeScript, and Node.js, specializing in creating applications tailored to client needs.
-                    I have worked on feature development, building high-quality React components, and collaborating
-                    with teams to deliver robust and scalable solutions. My experience also includes writing reliable tests using Jest and React Testing Library, and contributing to
-                    comprehensive project documentation. Additionally, I am proficient in frontend tools like CSS/SCSS
-                    and Storybook, which help ensure a seamless development workflow. I hold a Bachelor’s degree in
-                    Computer Science and a Master’s in Management, allowing me to combine technical expertise with
-                    organizational skills.
+                <p className="text-textLight text-left leading-relaxed">
+                    Hello, my name is Tomasz Szewczyk. I am a frontend developer with extensive{" "}
+                    <a
+                        className="text-oldMoneyGreen hover:text-oldMoneyYellowHover"
+                        href="#experience"
+                    >
+                        <b>experience</b>
+                    </a>{" "}
+                    in React, TypeScript, and Node.js, specializing in creating web applications
+                    tailored to client needs. I build high-quality React components, write reliable
+                    tests with Jest and React Testing Library, and care about seamless development workflows.
                 </p>
-                <p className="text-lg text-textLight text-justify leading-relaxed mt-6">
+                <p className="text-textLight text-left leading-relaxed mt-8">
                     I studied Computer Science at the{" "}
                     <a
                         href="https://www.polsl.pl/"
@@ -35,9 +29,7 @@ const About: React.FC = () => {
                     >
                         <b>Silesian University of Technology</b>
                     </a>{" "}
-                    in the Faculty of Automatics, Electronics, and Informatics. My favorite course was TAB (Creating Database Applications). I defended my engineering thesis with a grade of 4.5. The title of my thesis was
-                    &quot;Web Application to Facilitate Contact, Cooperation, and Task Outsourcing.&quot; I later
-                    pursued a master’s degree in Management at{" "}
+                    and later pursued a Master&#39;s in Management at{" "}
                     <a
                         href="https://www.merito.pl/chorzow"
                         target="_blank"
@@ -46,24 +38,11 @@ const About: React.FC = () => {
                     >
                         <b>Merito University</b>
                     </a>
-                    , graduating with a grade of 5.
+                    , graduating with a grade of 5. This combination allows me to bridge
+                    technical expertise with organizational and business skills.
                 </p>
-                <p className="text-lg text-textLight text-justify leading-relaxed mt-6">
-                    I gained first experience as a Frontend Developer Intern during my time at{" "}
-                    <a
-                        href="https://www.euvic.com/pl/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-oldMoneyGreen hover:text-oldMoneyYellowHover"
-                    >
-                        <b>Euvic</b>
-                    </a>
-                    , where I worked on developing web applications using React and JavaScript. During this time, I
-                    became proficient in project management tools and worked within Agile teams, which helped me
-                    develop valuable collaboration and organizational skills.
-                </p>
-                <p className="text-lg text-textLight text-justify leading-relaxed mt-6">
-                    I worked as a Frontend Developer at{" "}
+                <p className="text-textLight text-left leading-relaxed mt-8">
+                    I spent over 3 years at{" "}
                     <a
                         href="https://comarch.pl"
                         target="_blank"
@@ -72,22 +51,25 @@ const About: React.FC = () => {
                     >
                         <b>Comarch</b>
                     </a>
-                    , where I was responsible for developing and maintaining user interfaces for telecommunications
-                    applications. I worked with major clients such as Orange, Vodafone, and T-Mobile,
-                    further enhancing my technical and communication skills. Currently, I run my own sole proprietorship, providing IT services and software solutions for businesses.
+                    {" "}developing and maintaining UIs for telecommunications applications,
+                    working with clients such as Orange, Vodafone, and T-Mobile.
                 </p>
-                <p className="text-lg text-textLight text-justify leading-relaxed mt-6">
-                    In my spare time, I love learning new things, especially programming and languages. I also enjoy
-                    educating about cryptocurrencies and recording my podcast,{" "}
+                <p className="text-textLight text-left leading-relaxed mt-8">
+                    Currently, I run my own sole proprietorship, providing IT services and custom
+                    software solutions for businesses.
+                </p>
+                <p className="text-textLight text-left leading-relaxed mt-8">
+                    In my spare time, I enjoy learning new technologies and languages,
+                    and recording my podcast{" "}
                     <a
                         href="https://www.youtube.com/@coprzyniesieprzyszlosc"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-oldMoneyGreen hover:text-oldMoneyYellowHover"
                     >
-                        <b>&quot;Co przyniesie przyszłość? (What the future will bring)&quot;</b>
+                        <b>&quot;Co przyniesie przyszłość?&quot;</b>
                     </a>
-                    , which is available on{" "}
+                    , available on{" "}
                     <a
                         href="https://www.youtube.com/@coprzyniesieprzyszlosc"
                         target="_blank"
