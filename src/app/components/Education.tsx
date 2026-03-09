@@ -10,6 +10,11 @@ interface EducationProps {
 const Education: React.FC = () => {
     const educationData: EducationProps[] = [
         {
+            degree: "Master's Degree in Computer Science",
+            institution: "Merito University",
+            duration: "2025 — Present",
+        },
+        {
             degree: "English language certification",
             institution: "Private lessons",
             duration: "2024 — Present",

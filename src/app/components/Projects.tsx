@@ -72,7 +72,7 @@ const Projects: React.FC = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group bg-secondary rounded-2xl p-6 flex flex-col justify-between
-                            border border-gray-800 cursor-pointer no-underline"
+                            border border-oldMoneyGreen cursor-pointer no-underline"
                     >
                         <div>
                             <div className="flex items-center justify-between mb-4">
