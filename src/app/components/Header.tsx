@@ -68,6 +68,7 @@ const Header: React.FC = () => {
                 <ul className="flex flex-col space-y-6">
                     {[
                         {id: "about", label: "About"},
+                        {id: "skills", label: "Key Skills"},
                         {id: "education", label: "Education"},
                         {id: "experience", label: "Experience"},
                         {id: "projects", label: "Projects"},
